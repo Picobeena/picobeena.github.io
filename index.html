@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>hello it is My Blog</title>
+<link rel="stylesheet" href="Link rel stylesheet hreff.css">
+ <link rel="shortcut icon" type="image/x-icon" href="fav.ico" />
+</head>
+<div class="crt">
+</div>
+<div class="blur-overlay">
+</div>
+<body>
+<div class="donsplosion">
+<marquee direction="left" scrollamount="50" behavior="alternate"><img src="donsplosion.gif"></marquee>
+</div>
+<div class="title">
+<img src="logo.png">
+</div>
+<div class="header">
+<marquee direction="right" scrollamount="30"> 
+<div class="headimg">
+<div class="art"> <a href="art.html"> <img src="art.png"> </a> </div>
+<div class="taiko"> <a href="taiko.html"> <img src="taiko.png"> </a> </div> 
+<div class="beena"> <a href="beena.html"> <img src="beena.png"> </a> </div>
+<div class="arcade"> <a href="arcade.html"> <img src="arcade.png"> </a> </div>
+</marquee>
+</div>
+<div class="swish">
+<img src="blog.png">
+</div>
+<div class="main">
+me name <b> TAIKOFAN </b> and i like MANY things. you could even say straight up
+AUTISTIC about many things... "What thing s? " i hear you all asking in unison.
+ well... Let's just say... here are some things abut me, what i'm interested in
+and ET CETERA
+<br>
+<br> ☆ i love the RHYTHM games! taiko and pop'n are my favs <a href="cabinet.html">(i'm Building a taiko cabinet...)</a>
+  <br> ☆ calligraphy and ART
+<br> ☆ <a href="lang.html">languages </a>- learning russian, german, nanai (and japanese on and off)
+<br> ☆ love Love LOVE minority languages (especially palaeo-siberian + ryukyuan ones)
+<br> ☆ i'm also a raging they/them Furry homosexual
+ <br> ☆ <ruby>万<rt>まん</rt>葉<rt>よう</rt>仮<rt>が</rt>名<rt>な</rt></ruby>　<ruby>変<rt>へん</rt>体<rt>たい</rt>仮<rt>が</rt>名<rt>な</rt></ruby>　<ruby>草<rt>cǎo</rt>書<rt>shū</rt></ruby>　<ruby>篆<rt>zhuàn</rt>書<rt>shū</rt></ruby>　<ruby>行<rt>xíng</rt>書<rt>shū</rt></ruby>
+<br> ☆ almighty <a href="shiina.html">sheena Ringo</a> japanese singer/songwriter and her band tokyo jihen  
+<br> ☆ zemfira Music Artist 
+<br> ☆ <a href="cloŋ.html">cloŋiŋ</a> and worldbuilding
+ <br> ☆ old game consoles (<a href="beena.html">sega pico beena</a>) 
+ <br> ☆ public transport
+ <br> ☆ <a href="generalcrazy.html">road signs and license plates</a>
+ <br> ☆ 2nd level subdivisions of russia
+ <br> ☆ eurovision
+<br> ☆ geology
+<br><br>
+there are probably more awesome yet subtly interesting facts that I've <br>
+forgotten but these are the ones that come to mind :3 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div class="drop">
+<div class="content">
+<button id="dropbtn"><img src="contents.png"></button>
+</div>
+<div id="dropdown-content">
+<a href="generalcrazy.html"> cyrpus road Sign </a>
+<a href="penis.html"> china road Sign </a>
+<a href="ICLUND.html"> icelandic road SIGN </a>
+<a href="cabinet.html"> Arcade Cabinet Project Actually</a>
+<a href="flash.html"> Flash site taiko ac 11-14 </a>
+<a href="pdfs.html"> donder page PDFs </a>
+<a href="shiina.html"> shiin aringo </a>
+<a href="cloŋ.html"> cloŋ </a>
+<a href="art.html"> artwork's </a>
+</div>
+<div class="left">
+<div class="row">
+<div class="column">
+<img src="shiina.gif" height="110">
+<img src="xianbanner.png" height="110">
+</div>
+<div class="column">
+<img src="bee02051-9761-43c7-9d0c-613d1b92696f.jpg" height="110">
+<img src="gaypuffle.JPG" height="110">
+<img src="chinesesitting.JPG" height="110">
+</div>
+<div class="column">
+<img src="xianight.JPG" height="110">
+<img src="pyatigorsk.jpg" height="110">
+</div>
+<div class="column">
+<img src="catwires.jpg" height="110">
+<img src="landarn.JPG" height="110">
+<img src="collect.JPG" height="110">
+</div>
+</div>
+</div>
+<button id="dropbtn"><img src="link.png"></button>
+</div>
+<script>
+    function removeTransition(e) {
+      if (e.propertyName !== 'transform') return;
+      e.target.classList.remove('playing');
+    }
+  
+    function playSound(e) {
+      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+      const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+      if (!audio) return;
+  
+      key.classList.add('playing');
+      audio.currentTime = 0;
+      audio.play();
+    }
+  
+    const keys = Array.from(document.querySelectorAll('.key'));
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    window.addEventListener('keydown', playSound);
+  </script> 
+  <script type="text/javascript">
+function getRandomInt(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.floor(Math.random() * (max - min)) + min;
+}
+document.getElementById('random').src = 'blog (' + getRandomInt(1, 9) + ').png';
+</script>
+<script>
+var elements = document.getElementsByClassName("Globnya");
+var i;
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+}}}}}}}}}}
+}
+}}}}}}}}}}}
+</script>
+<script>
+  document.getElementById("dropdown-content").style.display ="none";
+
+  function openTest() {
+    var dropdown = document.getElementById("dropdown-content");
+    if (dropdown.style.display === "block") {
+      dropdown.style.display = "none";
+    } else {
+      dropdown.style.display = "block";
+    }
+  }
+
+document.getElementById('dropbtn').addEventListener('click', openTest);
+</script>
+<div class="keys">
+<div data-key="68" class="key">
+<kbd>D</kbd>
+<span class="sound">ka</span>
+</div>
+<div data-key="70" class="key">
+<kbd>F</kbd>
+<span class="sound">don</span>
+</div>
+<div data-key="74" class="key">
+<kbd>J</kbd>
+<span class="sound">don</span>
+</div>
+<div data-key="75" class="key">
+<kbd>D</kbd>
+<span class="sound">ka</span>
+</div>
+</div>
+<audio data-key="68" src="ka.mp3"></audio>
+<audio data-key="70" src="don.mp3"></audio>
+<audio data-key="74" src="don.mp3"></audio>
+<audio data-key="75" src="ka.mp3"></audio>
+<div class="sticky-blur">
+</div>
+</body>
+</html>
